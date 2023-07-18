@@ -1,0 +1,1 @@
+export type GameStatus = 'menu' | 'choice' | 'process' | 'result' | 'draw' | 'w-computer' | 'w-player'
