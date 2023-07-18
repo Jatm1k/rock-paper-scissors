@@ -16,8 +16,8 @@ defineProps<Props>()
 
 <template>
   <div class="hands">
-    <img class="player-hand" :src="`public/assets/${playerHand.value}.png`" alt="" :class="{shakePlayer: gameStatus == 'process'}"/>
-    <img class="computer-hand" :src="`public/assets/${computerHand.value}.png`" alt="" :class="{shakeComputer: gameStatus == 'process'}"/>
+    <img class="player-hand" :src="`/assets/${playerHand.value}.png`" alt="" :class="{shakePlayer: gameStatus == 'process'}"/>
+    <img class="computer-hand" :src="`/assets/${computerHand.value}.png`" alt="" :class="{shakeComputer: gameStatus == 'process'}"/>
   </div>
 </template>
 
